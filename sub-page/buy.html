@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="../src/jquery-3.6.3.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="../src/angular.min.js"></script>
+    <script src="../src/angular-route.js"></script>
+    <link
+      rel="stylesheet"
+      href="../src/swiper-bundle.min.css"
+    />
+    <script src="../src/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="../src/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../src/bootstrap-icons-1.10.3/bootstrap-icons.css"
+    />
+    <script src="../js/lmao.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Clarins Cosmetics</title>
+  </head>
+
+<body data-ng-app="myApp" data-ng-controller="myCtrl">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-7 bg-light rounded">
+        <div class="row">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm d-none d-sm-block">Type</div>
+              <div class="col-sm d-none d-sm-block">Name</div>
+              <div class="col-sm d-none d-sm-block">Image</div>
+              <div class="col-sm d-none d-sm-block">Amount</div>
+              <div class="col-sm d-none d-sm-block">Price</div>
+              <div class="col-sm d-none d-sm-block"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row" data-ng-repeat="item in bagUrls" id="{{item.id}}">
+          <hr />
+          <div class="col-sm">{{item.type}}</div>
+          <div class="col-sm">{{item.name}}</div>
+          <div class="col-sm">
+            <img width="70px" src="{{item.link1}}" alt="" />
+          </div>
+          <div class="col-sm">{{item.amount}}</div>
+          <div class="col-sm">{{item.price}}$</div>
+          <div class="col-sm">
+            <button type="button" class="btn btn-outline-danger" data-ng-click="delete(item.id)">
+              <i class="bi bi-trash"></i>
+            </button>
+          </div>
+        </div>
+        <div class="row justify-content-center">Total: {{getTotal('price')}}$</div>
+      </div>
+      <div class="col-sm-5">
+        <div class="panel panel-default credit-card-box">
+          <div class="panel-heading display-table">
+            <div class="row display-tr">
+              <h3 class="panel-title display-td text-center text-white">Payment Details</h3>
+              <div class="display-td">
+                <img class="img-responsive" src="../img/creditcard.png" style="width: 70%" />
+              </div>
+            </div>
+          </div>
+          <div class="panel-body text-white">
+            <form role="form" id="payment-form">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <label for="cardNumber">CARD NUMBER</label>
+                    <div class="input-group">
+                      <input type="tel" class="form-control" name="cardNumber" placeholder="Valid Card Number"
+                        autocomplete="cc-number" required autofocus />
+                      <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-7 col-md-7">
+                  <div class="form-group">
+                    <label for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span
+                        class="visible-xs-inline">EXP</span> DATE</label>
+                    <input type="tel" class="form-control" name="cardExpiry" placeholder="MM / YY" autocomplete="cc-exp"
+                      required />
+                  </div>
+                </div>
+                <div class="col-sm-5 col-md-5 pull-right">
+                  <div class="form-group">
+                    <label for="cardCVC">CV CODE</label>
+                    <input type="tel" class="form-control" name="cardCVC" placeholder="CVC" autocomplete="cc-csc"
+                      required />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <label for="couponCode">COUPON CODE</label>
+                    <input type="text" class="form-control" name="couponCode" />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <h2></h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <h3>Delivery Information</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <label for="couponCode">Name</label>
+                    <input type="text" class="form-control" name="couponCode" />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <label for="couponCode">Address</label>
+                    <input type="text" class="form-control" name="couponCode" />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <label for="phone_number">Phone Number</label>
+                    <input type="phone" class="form-control" ng-minlength="10" ng-maxlength="10" id="inputPhone"
+                      name="phone" placeholder="Phone number must contain 10 digits" ng-model="user.phone"
+                      ng-required="true" />
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <button class="btn btn-success btn-lg btn-block" type="submit">
+                      Continue
+                    </button>
+                  </div>
+                </div>
+                <div class="row" style="display: none">
+                  <div class="col-sm-12">
+                    <p class="payment-errors"></p>
+                  </div>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

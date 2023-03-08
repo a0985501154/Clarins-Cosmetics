@@ -1,0 +1,148 @@
+{
+  "body": [
+    {
+      "name": "Body Partner Stretch Mark Expert",
+      "id": "#body1",
+      "description": "New and improved plant-powered 'mom-friendly' formula! A gentle stretch mark cream that addresses stretch marks caused by pregnancy and weight fluctuations. This fast absorbing, plant-based formula blended with minimal ingredients chosen precisely for their highly effective properties helps target stretch marks and gently comforts the skin.",
+      "link1": "../img/body/b1.jpg",
+      "link2": "../img/body/b2.jpg",
+      "link3": "../img/body/b3.jpg",
+      "link4": "../img/body/b4.jpg",
+      "price": 24.0,
+      "amount": 126,
+      "state": "Out of stock"
+    },
+    {
+      "name": "Bust Beauty Extra-Lift Gel",
+      "id": "#body2",
+      "description": "Refreshing gel that visibly lifts, tightens, and tones skin on the bust and décolleté. Formulated with natural plant extracts of Vu Sua and Oat sugars, this hydrating gel formula delivers an immediate tightening effect from base of breasts to chin. Apply each morning to promote a visibly toned 'natural bra' area and shapelier silhouette. Lightweight texture is absorbed instantly so there's no wait time before dressing. Do not use if breastfeeding.",
+      "link1": "../img/body/b5.jpg",
+      "link2": "../img/body/b4.jpg",
+      "link3": "../img/body/b3.jpg",
+      "link4": "../img/body/b4.jpg",
+      "price": 70.0,
+      "amount": 14,
+      "state": " "
+    },
+    {
+      "name": "Masvelt Advanced Body Firming and Shaping Cream",
+      "id": "#body3",
+      "description": "Rich, melting, body cream targets stubborn fat on arms, abdomen, knees, and hips for a visibly firmer, sleeker, tighter silhouette. This advanced triple-action formula contours, firms, and moisturizes. NEW Postbiotic Arctic Ferment extract—a potent bio-tech innovation of 100% natural origin delivers visible contouring and slimming effects. Five powerful plant extracts reinforce this action for optimal results. Celosia extract, Scabious extract (from an organic plant) and plant Caffeine visibly firm, define, and refine contours for a slimmer-looking, streamlined silhouette. Organic Mitracarpus extract visibly firms and tones. Organic Aloe Vera extract intensely moisturizes, softens, and visibly smoothes. Soothing texture is ideal for self-massage, and suitable for all skin types.",
+      "link1": "../img/body/b6.jpg",
+      "link2": "../img/body/b1.jpg",
+      "link3": "../img/body/b3.jpg",
+      "link4": "../img/body/b4.jpg",
+      "price": 70.0,
+      "amount": 220,
+      "state": "BEST SELLER"
+    },
+    {
+      "name": "Tonic Bath and Shower Concentrate",
+      "id": "#body4",
+      "description": "Invigorating gel body wash that leaves every inch of skin soft, clean, and beautifully conditioned. Revitalizes skin and senses with energizing, aromatic essential oils of Rosemary, Field Mint, and Organic Horse Chestnut extract for a visible toning effect. Sensorial gel formula—with gently cleansing Organic Soapwort extract—water activates into a fine, lightweight foam that rinses easily, leaving skin comfortable, smooth and delicately perfumed for a spa-fresh feeling of well-being. Silky lather is gentle enough for the most sensitive skin.",
+      "link1": "../img/body/b7.jpg",
+      "link2": "../img/body/b2.jpg",
+      "link3": "../img/body/b3.jpg",
+      "link4": "../img/body/b4.jpg",
+      "price": 42.0,
+      "amount": 54,
+      "state": " "
+    },
+    {
+      "name": "Contour Body Treatment Oil",
+      "id": "#body5",
+      "description": "Contouring body treatment oil, formulated with 100% plant extracts, creates a total feeling of well-being. An aromatic blend of essential oils—including Organic Geranium, Sweet Marjoram, and Lemon—helps release toxins to visibly firm, tone, and reduce the look of sponginess for a slimmer-looking silhouette. Hazelnut oil, rich in Omega 9 and Vitamin E, locks in moisture to smooth skin from shoulders to toes. Fine, lightweight formula is absorbed instantly.",
+      "link1": "../img/body/b8.jpg",
+      "link2": "../img/body/b2.jpg",
+      "link3": "../img/body/b3.jpg",
+      "link4": "../img/body/b4.jpg",
+      "price": 42.0,
+      "amount": 54,
+      "state": " "
+    },
+    {
+      "name": "Relaxing Bath and Shower Concentrate",
+      "id": "#body6",
+      "description": "Tension-melting gel body wash that leaves every inch of skin soft, clean, and beautifully conditioned. Soothes the senses with the new, stress-relieving scent of Lavender and Orange Flower—plus the comforting aromatic essential oils of Basil, Bitter Orange, Organic Geranium, Organic Camomile, and Organic Elderberry extract. Sensorial gel formula water-activates into a fine, lightweight foam that rinses easily—leaving skin soft, smooth, and lightly perfumed with a refreshing, woody-floral scent. Silky lather is gentle enough for the most sensitive skin.",
+      "link1": "../img/body/b9.jpg",
+      "link2": "../img/body/b2.jpg",
+      "link3": "../img/body/b3.jpg",
+      "link4": "../img/body/b4.jpg",
+      "price": 42.0,
+      "amount": 54,
+      "state": " "
+    },
+    {
+      "name": "Hand and Nail Treatment Lotion with Shea Butter",
+      "id": "#body7",
+      "description": "Lightweight, nourishing hand lotion that softens, soothes, and visibly minimizes dark spots. Formulated with natural plant extracts of Shea butter, Sesame oil, and fortifying Myrrh, this hydrating lotion conditions and comforts rough, dry skin on hands, cuticles and around nails. Mulberry extract helps visibly reduce dark spots. Forms an invisible protective glove that helps minimize damage from environmental pollution that leads to premature signs of aging. Lightweight, silky texture melts into skin and leaves hands soft and comfortable.",
+      "link1": "../img/body/b10.jpg",
+      "link2": "../img/body/b2.jpg",
+      "link3": "../img/body/b3.jpg",
+      "link4": "../img/body/b4.jpg",
+      "price": 51.0,
+      "amount": 20,
+      "state": " "
+    },
+    {
+      "name": "Eau des Jardins Uplifting Fresh Shower Gel",
+      "id": "#body8",
+      "description": "Uplifting gel body wash that leaves every inch of skin soft, clean, and beautifully conditioned. Promotes feelings of well-being with mood-boosting, aromatic essential oils of Grapefruit and Sweet Orange. Sensorial gel formula—with hydrating Organic Aloe extract, Glycerine, and gently cleansing Organic Soapwort extract—water-activates into a fine, lightweight foam that rinses easily, leaving skin refreshed, smooth, and delicately perfumed with a sparkling, fruity-citrus scent. Silky lather is gentle enough for the most sensitive skin.",
+      "link1": "../img/body/b12.jpg",
+      "link2": "../img/body/b2.jpg",
+      "link3": "../img/body/b3.jpg",
+      "link4": "../img/body/b4.jpg",
+      "price": 13.0,
+      "amount": 54,
+      "state": " "
+    },
+    {
+      "name": "Eau Extraordinaire Revitalizing Silky Body Cream",
+      "id": "#body9",
+      "description": "Moisturizing, aromatherapy body cream that intensely hydrates, nourishes and perfumes skin with a mood-boosting scent. Formulated with natural plant extracts of Organic Leaf of Life and Organic Shea Butter—and scented with invigorating notes of Jasmine, Patchouli, Red Ginger, Hazelnut and a sparkling twist of citrus—this soothing body cream envelopes body skin in a delicate veil of scented moisture that, refreshes the senses, and revives inner strength and vitality to bring positive energy to your day.",
+      "link1": "../img/body/b13.jpg",
+      "link2": "../img/body/b2.jpg",
+      "link3": "../img/body/b3.jpg",
+      "link4": "../img/body/b4.jpg",
+      "price": 25.0,
+      "amount": 54,
+      "state": " "
+    },
+    {
+      "name": "After Sun Shower Gel",
+      "id": "#body10",
+      "description": "Refreshing post-sun cleansing gel for face, body and hair. Clarins' refreshing, 3-in-1 after sun shower gel for face, body, and hair removes sunscreens, salt, sand, chlorine odors, and pollution—without drying. Perfect after a day at the beach, swimming, or playing sports.",
+      "link1": "../img/body/b14.jpg",
+      "link2": "../img/body/b2.jpg",
+      "link3": "../img/body/b3.jpg",
+      "link4": "../img/body/b4.jpg",
+      "price": 11.0,
+      "amount": 54,
+      "state": " "
+    },
+    {
+      "name": "Nourishing Shampoo Bar",
+      "id": "#body11",
+      "description": "This eco-friendly shampoo bar is formulated with 87% ingredients of natural origin, including nourishing Organic Argan and Camellia oils. Water-activates into a silky foam that rinses away excess oils and impurities for hair that is clean, soft, and super-shiny. The pH neutral formula is free of sulfates, additives, and preservatives, for extra-gentle cleansing that leaves hair moist and supple—never dry or brittle. Infused with a sensorial Coconut scent of 100% natural origin, the portable formula goes where you go—without risk of spilling—and is suitable for all hair types, making it an ideal choice for the entire family. Eco-friendly design with zero plastic waste—one shampoo bar is the equivalent of two bottles* of liquid shampoo.",
+      "link1": "../img/body/b15.jpg",
+      "link2": "../img/body/b2.jpg",
+      "link3": "../img/body/b3.jpg",
+      "link4": "../img/body/b4.jpg",
+      "price": 121.0,
+      "amount": 54,
+      "state": " "
+    },
+    {
+      "name": "Hand Gel Gentle Foaming Cleanser with Cottonseed",
+      "id": "#body12",
+      "description": "Silky, foaming hand soap that gently cleanses and purifies while softening and soothing skin. Formulated with natural plant extracts of Cottonseed and Geranium, this gel cleanser water-activates into a silky foam that washes away dirt and germs while respecting the skin’s natural moisture balance. Its gentle, non-drying formula leaves skin soft, supple, and incredibly comfortable. Delicately scented.",
+      "link1": "../img/body/b16.jpg",
+      "link2": "../img/body/b2.jpg",
+      "link3": "../img/body/b3.jpg",
+      "link4": "../img/body/b4.jpg",
+      "price": 23.0,
+      "amount": 54,
+      "state": " "
+    }
+  ]
+}

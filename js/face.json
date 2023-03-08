@@ -1,0 +1,148 @@
+{
+  "face": [
+    {
+      "name": "Double Serum Firming and Smoothing Anti-Aging Concentrate",
+      "id": "#face1",
+      "description": " Clarins' #1 bestselling anti-aging serum.* Two power-packed serums in one! Formulated with 21 potent plant extracts—including age-defying Turmeric—to visibly firm, smooth, and boost radiance in just 7 days.** Performance that goes further in decoding the language of youth to address all visible signs of skin aging.Inspired by the dual water and oil nature of the skin, our iconic two-phase formula delivers the perfect ratio of water soluble (hydric) and oil soluble (lipidic) ingredients. Once dispensed, the two concentrates combine together into one powerful serum that easily absorbs into the skin and effectively targets all visible signs of skin aging.",
+      "link1": "../img/face/f1.jpg",
+      "link2": "../img/face/f2.jpg",
+      "link3": "../img/face/f3.jpg",
+      "link4": "../img/face/f4.jpg",
+      "price": 24.0,
+      "amount": 126,
+      "state": "Out of stock"
+    },
+    {
+      "name": "Total eye lift",
+      "id": "#face2",
+      "description": "An award-winning, naturally powerful, all-in-one, anti-aging eye cream that targets wrinkles, crow's feet, dark circles, and puffiness for a visible eye lift in 60 seconds flat!* Formulated with ingredients of 94% natural origin, including Clarins' exclusive Lift-Smoothing Duo of Organic Harungana extract—as effective as retinol,** and gentle on the skin—and Cassie Flower wax, this innovative anti-aging formula provides an immediate, visible lifting and wrinkle-smoothing effect with results that improve with daily use.",
+      "link1": "../img/face/f5.jpg",
+      "link2": "../img/face/f6.jpg",
+      "link3": "../img/face/f7.jpg",
+      "link4": "../img/face/f8.jpg",
+      "price": 70.0,
+      "amount": 14,
+      "state": " "
+    },
+    {
+      "name": "Lip Comfort Oil",
+      "id": "#face3",
+      "description": "Inspired by our worldwide bestselling Double Serum*, Clarins introduces Double Serum Eye—two power-packed serums in one concentrated formula that works from temple-to-temple to visibly smooth, firm, hydrate, and revitalize the eye area with age-defying results in just 7 days**. This plant-based formula contains 96% ingredients of natural origin and 13 potent plant extracts including our new Youth-Preserving Duo of powerhouse plant extracts, Organic Wild Chervil and Turmeric, specifically chosen for their anti-aging benefits to address the delicate eye area. The lightweight, two-phase texture provides an instant boost of nourishment for smoother- and brighter-looking eyes immediately after each use.",
+      "link1": "../img/face/f9.jpg",
+      "link2": "../img/face/f6.jpg",
+      "link3": "../img/face/f7.jpg",
+      "link4": "../img/face/f8.jpg",
+      "price": 70.0,
+      "amount": 220,
+      "state": "BEST SELLER"
+    },
+    {
+      "name": "Lip Comfort Oil",
+      "id": "#face4",
+      "description": "A new era of our iconic Lip Comfort Oil reformulated with a trio of plant oils including Organic Sweetbriar Rose oil to help revive, comfort, and protect lips while visibly plumping with all day hydration and nourishment. This lip care treatment kisses lips with a sheer hint of color and mirror-like shine. The conditioning oil texture glides smoothly over lips with an even lighter, non-sticky feel that delivers a cushioned, cocooned effect.",
+      "link1": "../img/face/f10.jpg",
+      "link2": "../img/face/f2.jpg",
+      "link3": "../img/face/f3.jpg",
+      "link4": "../img/face/f4.jpg",
+      "price": 42.0,
+      "amount": 54,
+      "state": " "
+    },
+    {
+      "name": "Blue Orchid Face Treatment Oil",
+      "id": "#face5",
+      "description": "Hydrating face treatment oil, formulated with 100% plant extracts, helps revitalize dehydrated skin. An aromatic blend of essential oils—including Blue Orchid and Patchouli—helps restore radiance, tone, and vitality to moisture-deprived skin. Hazelnut Oil, rich in Omega 9 and Vitamin E, softens, soothes, and seals in moisture to minimize the appearance of fine lines. Fine, lightweight formula is absorbed instantly.",
+      "link1": "../img/face/f11.jpg",
+      "link2": "../img/face/f2.jpg",
+      "link3": "../img/face/f3.jpg",
+      "link4": "../img/face/f4.jpg",
+      "price": 42.0,
+      "amount": 54,
+      "state": " "
+    },
+    {
+      "name": "Double Serum Light Texture Firming and Smoothing Anti-Aging Concentrate",
+      "id": "#face6",
+      "description": "Our worldwide bestselling anti-aging serum* now also in a lightweight texture great for oily skin and those living in warm or humid climates. Formulated with the same 21 potent plant extracts—including age-defying Turmeric—this two in one serum visibly firms, smoothes, and boosts skin’s radiance in just 7 days.** Performance that goes further in decoding the language of youth to address all visible signs of skin aging.",
+      "link1": "../img/face/f12.jpg",
+      "link2": "../img/face/f6.jpg",
+      "link3": "../img/face/f7.jpg",
+      "link4": "../img/face/f8.jpg",
+      "price": 42.0,
+      "amount": 54,
+      "state": " "
+    },
+    {
+      "name": "Super Restorative Night Cream - All Skin Types",
+      "id": "#face7",
+      "description": "A deeply replenishing, anti-aging night moisturizer for all skin types that minimizes the appearance of lines, wrinkles, dullness, and slackening caused by age-related hormonal changes, while evening skin tone — for a visibly smoother, firmer, radiant, and more youthful-looking complexion.",
+      "link1": "../img/face/f13.jpg",
+      "link2": "../img/face/f6.jpg",
+      "link3": "../img/face/f7.jpg",
+      "link4": "../img/face/f8.jpg",
+      "price": 42.0,
+      "amount": 54,
+      "state": " "
+    },
+    {
+      "name": "Extra-Firming Day SPF 15 - All Skin Types",
+      "id": "#face8",
+      "description": "Silky anti-aging day cream visibly firms, lifts and fights wrinkles with the age-defying power of Kangaroo Flower extract—a new plant discovery that leaves skin looking smooth, firm, radiant, and more renewed day after day. Helps protect from skin-aging UVA/UVB rays with Broad Spectrum SPF 15 sunscreen. Formulated with Clarins' Anti-Pollution Complex to help fight the effects of pollution and free radicals.",
+      "link1": "../img/face/f14.jpg",
+      "link2": "../img/face/f6.jpg",
+      "link3": "../img/face/f7.jpg",
+      "link4": "../img/face/f8.jpg",
+      "price": 42.0,
+      "amount": 54,
+      "state": " "
+    },
+    {
+      "name": "Hydra-Essentiel Silky Moisturizer with Double Hyaluronic Acid",
+      "id": "#face9",
+      "description": "Intensely hydrating, silky face cream delivers a boost of moisture for immediate and long-lasting results—plumper skin in just 60 seconds* and 24-hour hydration.** The sensorial, fresh texture melts right in for skin that feels soft, plump, radiant, and perfectly hydrated. Ideal for normal to dry skin.",
+      "link1": "../img/face/f15.jpg",
+      "link2": "../img/face/f2.jpg",
+      "link3": "../img/face/f3.jpg",
+      "link4": "../img/face/f4.jpg",
+      "price": 42.0,
+      "amount": 54,
+      "state": " "
+    },
+    {
+      "name": "Multi-Active Night Cream - Normal to Combination Skin",
+      "id": "#face10",
+      "description": "Nourishing anti-aging night moisturizer for normal to combination skin smoothes skin while you sleep. Encapsulated Teasel extract delivers targeted revitalizing and line-fighting action to where your skin needs it most. Ginger Lily extract - helps address signs of late nights and interrupted sleep, visibly smoothing fine lines while leaving skin moisturized, nourished and comforted. Formulated with Clarins' Anti-Pollution Complex to help fight the effects of pollution and free radicals.",
+      "link1": "../img/face/f16.jpg",
+      "link2": "../img/face/f2.jpg",
+      "link3": "../img/face/f3.jpg",
+      "link4": "../img/face/f4.jpg",
+      "price": 42.0,
+      "amount": 54,
+      "state": " "
+    },
+    {
+      "name": "Soothing Gentle Foaming Cleanser",
+      "id": "#face11",
+      "description": "Creamy, rinse-off, foaming facial cleanser for very dry or sensitive skin—with purifying Alpine herbs sourced from our own farm, Le Domaine Clarins, and naturally lathering Organic Saponaria—which allows the formula to be soap- and SLS-free—water-activates into a silky foam that gently and effectively removes impurities, makeup, and pollution while preserving the skin's natural microbiota. Formulated with soothing Organic Chamomile and Shea butter to leave skin feeling soft, smooth, and incredibly comfortable.",
+      "link1": "../img/face/f17.jpg",
+      "link2": "../img/face/f2.jpg",
+      "link3": "../img/face/f3.jpg",
+      "link4": "../img/face/f4.jpg",
+      "price": 42.0,
+      "amount": 54,
+      "state": " "
+    },
+    {
+      "name": "Extra-Firming Energy",
+      "id": "#face12",
+      "description": "A 2-in-1 day cream that visibly firms and boosts radiance, with re-energizing superpowers for a healthy-looking glow. This new generation, dual-action cream combines the revitalizing expertise of Clarins’ anti-aging plant ingredients, including an age-defying blend of Kangaroo Flower and Organic Mitracarpus extracts, with our Glow Plus Complex to target signs of fatigue and stress—loss of firmness, wrinkles, and dullness—promoting a smooth, even, radiant complexion.",
+      "link1": "../img/face/f18.jpg",
+      "link2": "../img/face/f2.jpg",
+      "link3": "../img/face/f3.jpg",
+      "link4": "../img/face/f4.jpg",
+      "price": 42.0,
+      "amount": 54,
+      "state": " "
+    }
+  ]
+}

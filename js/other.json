@@ -1,0 +1,52 @@
+{
+      "other": [
+            {
+                  "name": "LES 4 OMBRES TWEED",
+                  "id": "#other1",
+                  "description": "Just as Mademoiselle borrowed tweed from men's equestrian style for her iconic jacket, which liberated women by facilitating their movements, CHANEL drew inspiration from the signature fabric to dress the eyes with limited-edition palettes.",
+                  "link1": "../img/other/1.jpg",
+                  "link2": "../img/other/2.jpg",
+                  "link3": "../img/other/3.jpg",
+                  "link4": "../img/other/4.jpg",
+                  "price": 81.00,
+                  "amount": 695,
+                  "state": ""
+            },
+            {
+                  "name": "N°1 DE CHANEL REVITALIZING SERUM",
+                  "id": "#other2",
+                  "description": "The red camellia is a flower unlike any other and the key ingredient in N°1 DE CHANEL. A flower with revitalising powers, whose extraordinary energy gives it perennial youth.",
+                  "link1": "../img/other/5.jpg",
+                  "link2": "../img/other/6.jpg",
+                  "link3": "../img/other/7.jpg",
+                  "link4": "../img/other/8.jpg",
+                  "price": 70.00,
+                  "amount": 1250,
+                  "state": " "
+            },
+            {
+                  "name": "N°1 DE CHANEL REVITALIZING CREAM",
+                  "id": "#other3",
+                  "description": "The red camellia is a flower unlike any other and the key ingredient in N°1 DE CHANEL. A flower with revitalising powers, whose extraordinary energy gives it perennial youth.",
+                  "link1": "../img/other/9.jpg",
+                  "link2": "../img/other/10.jpg",
+                  "link3": "../img/other/11.jpg",
+                  "link4": "../img/other/12.jpg",
+                  "price": 70.00,
+                  "amount": 910,
+                  "state": ""
+            },
+            {
+                  "name": "N°1 DE CHANEL REVITALIZING SERUM",
+                  "id": "#other4",
+                  "description": "The red camellia is a flower unlike any other and the key ingredient in N°1 DE CHANEL. A flower with revitalising powers, whose extraordinary energy gives it perennial youth. ",
+                  "link1": "../img/other/13.jpg",
+                  "link2": "../img/other/14.jpg",
+                  "link3": "../img/other/15.jpg",
+                  "link4": "../img/other/16.jpg",
+                  "price": 42.00,
+                  "amount": 1250,
+                  "state": " "
+            }
+      ]
+}

@@ -1,0 +1,148 @@
+{
+      "makeup": [
+            {
+                  "name": "Lip Comfort Oil ",
+                  "id": "#makeup1",
+                  "description": " A new era of our iconic Lip Comfort Oil reformulated with a trio of plant oils including Organic Sweetbriar Rose oil to help revive, comfort, and protect lips while visibly plumping with all day hydration and nourishment. This lip care treatment kisses lips with a sheer hint of color and mirror-like shine. The conditioning oil texture glides smoothly over lips with an even lighter, non-sticky feel that delivers a cushioned, cocooned effect.Developed with the same expertise as Clarins' skincare, this intensive lip treatment oil is formulated with 93% ingredients of natural origin to hydrate, comfort and cocoon skin with a sheer kiss of color and shine. A powerful trio of responsibly harvested, natural plant oils—NEW Organic Sweetbriar Rose oil, Organic Jojoba oil, and Hazelnut oil—helps to plump lips for all day hydration and nutrition. Lips feel continuously protected, comforted, instantly soothed, and more supple, with a more beautiful look, even when bare.Updated in a sleek, new package our beloved curved sponge applicator hugs lip and contours for precise, glide-on application that leaves lips feeling cocooned with ultra-glossy shine.Available in 8 sheer shades—including 5 pH-reactive shades (03 cherry,04 pitaya,05 apricot,08 strawberry & 10 plum) for a custom naturally enhanced lip look, all your own. For extra conditioning care, honey shade (01) can be used as an overnight sleep mask. ",
+                  "link1": "../img/makeup/mu1.jpg",
+                  "link2": "../img/makeup/mu2.jpg",
+                  "link3": "../img/makeup/mu3.jpg",
+                  "link4": "../img/makeup/mu4.jpg",
+                  "price": 28.00,
+                  "amount": 1506,
+                  "state": "BEST SELLER"
+            },
+            {
+                  "name": "Instant Eye Make-Up Remover ",
+                  "id": "#makeup2",
+                  "description": "Ultra-gentle, bi-phase makeup remover instantly dissolves all types of eye makeup, even long-wear or waterproof—with no oily residue. Dual-phase formula combines ultra-fine oils with Organic Cornflower and Organic Rose floral waters to help soothe, refresh, and moisturize. Won't tug, sting, or irritate even the most sensitive eyes.Ophthalmologist-tested. Gentle enough for contact lens wearers. ",
+                  "link1": "../img/makeup/mu5.jpg",
+                  "link2": "../img/makeup/mu6.jpg",
+                  "link3": "../img/makeup/mu7.jpg",
+                  "link4": "../img/makeup/mu8.jpg",
+                  "price": 33.00,
+                  "amount": 57,
+                  "state": " "
+            },
+            {
+                  "name": "Supra Volume Mascara",
+                  "id": "#makeup3",
+                  "description": "This double volume effect mascara leaves lashes full, yet flexible. The gentle formula is enriched with Cassie Flower and Panthenol to visibly thicken and smooth lashes. Rich color pigments and a soft bristle brush create a dramatic, fanned-out lash look. Clump-free and long-wearing.",
+                  "link1": "../img/makeup/mu9.jpg",
+                  "link2": "../img/makeup/mu10.jpg",
+                  "link3": "../img/makeup/mu11.jpg",
+                  "link4": "../img/makeup/mu12.jpg",
+                  "price": 29.00,
+                  "amount": 342,
+                  "state": "ShortList's Best Overall Mascara (2020)"
+            },
+            {
+                  "name": "Water Lip Stain",
+                  "id": "#makeup4",
+                  "description": "Matte, moisturizing lip stain delivers sheer-to-stay color with a barely-there feel. Long-wearing formula is stray-proof, smooch-proof, and fade-proof. You customize the result—from a just-kissed look to high voltage color. The more coats, the deeper the color intensity.",
+                  "link1": "../img/makeup/mu13.jpg",
+                  "link2": "../img/makeup/mu14.jpg",
+                  "link3": "../img/makeup/mu15.jpg",
+                  "link4": "../img/makeup/mu16.jpg",
+                  "price": 29.00,
+                  "amount": 352,
+                  "state": " "
+            },
+            {
+                  "name": "Instant Smooth Perfecting Touch ",
+                  "id": "#makeup5",
+                  "description": "With an ultra-light melting texture, this wrinkle-smoothing primer leaves an imperceptible veil over the skin's surface, filling in the appearance of fine lines, pores, and deep wrinkles. Developed with the same expertise as Clarins skincare, this award-winning formula is enriched with smoothing Acacia micro-pearls and Vitamin E to hydrate and nourish. Soft-focus pigments blur imperfections to visibly even and prep skin for flawless makeup application. ",
+                  "link1": "../img/makeup/mu17.jpg",
+                  "link2": "../img/makeup/mu18.jpg",
+                  "link3": "../img/makeup/mu19.jpg",
+                  "link4": "../img/makeup/mu20.jpg",
+                  "price": 40.00,
+                  "amount": 246,
+                  "state": "BELLA's Beauty Awards - Unrivaled Results (2020)"
+            },
+            {
+                  "name": "Everlasting Foundation",
+                  "id": "#makeup6",
+                  "description": "A long-lasting foundation with 24-hour hold for full coverage that hides all imperfections, evens skin tone, and delivers a natural matte finish. Our plant-enriched formula made with Organic Oat Sugars, Bamboo Powder, and Organic Quinoa extract provides 24 hours* of hydration and an ultra-lightweight feel, for seamless coverage with comfortable wear. Transfer-proof, smudge-proof, sweat-proof, mask-friendly, and breathable, this longwearing foundation maintains stay-put wear around the clock for a flawless complexion that lasts! ",
+                  "link1": "../img/makeup/mu21.jpg",
+                  "link2": "../img/makeup/mu22.jpg",
+                  "link3": "../img/makeup/mu23.jpg",
+                  "link4": "../img/makeup/mu24.jpg",
+                  "price": 48.00,
+                  "amount": 31,
+                  "state": ""
+            },
+            {
+                  "name": "My Clarins SWEETY BALM colour reveal lip balm  ",
+                  "id": "#makeup7",
+                  "description": "Sheer lip balm—enriched with nourishing Organic Cacao butter—reacts to the pH of your lips to reveal your personal shade of rose. Soft & nourishing Cacao plumps, comforts and shines. Experience a mood boost with the refreshing scent of peach.",
+                  "link1": "../img/makeup/mu25.jpg",
+                  "link2": "../img/makeup/mu26.jpg",
+                  "link3": "../img/makeup/mu27.jpg",
+                  "link4": "../img/makeup/mu28.jpg",
+                  "price": 17.00,
+                  "amount": 31,
+                  "state": "ONLINE EXCLUSIVE"
+            },
+            {
+                  "name": "Natural Lip Perfector ",
+                  "id": "#makeup8",
+                  "description": "Intensely pigmented lip color leaves a radiant, plumped, wet shine look on the lips. The non-sticky, ultra-sensorial melting gel has an addictive vanilla scent and glides on with ease thanks to the pampering cushion applicator.",
+                  "link1": "../img/makeup/mu29.jpg",
+                  "link2": "../img/makeup/mu30.jpg",
+                  "link3": "../img/makeup/mu31.jpg",
+                  "link4": "../img/makeup/mu32.jpg",
+                  "price": 28.00,
+                  "amount": 20,
+                  "state": " "
+            },
+            {
+                  "name": "Joli Rouge ",
+                  "id": "#makeup9",
+                  "description": "Refreshing makeup scrub that gently exfoliates, softens, and nourishes. ",
+                  "link1": "../img/makeup/mu33.jpg",
+                  "link2": "../img/makeup/mu34.jpg",
+                  "link3": "../img/makeup/mu35.jpg",
+                  "link4": "../img/makeup/mu36.jpg",
+                  "price": 32.00,
+                  "amount": 46,
+                  "state": " "
+            },
+            {
+                  "name": "Velvet Lip Perfector ",
+                  "id": "#makeup10",
+                  "description": "Clarins' bestselling makeup hero - Natural Lip Perfectors - go bold with a new creamy matte finish! ",
+                  "link1": "../img/makeup/mu37.jpg",
+                  "link2": "../img/makeup/mu38.jpg",
+                  "link3": "../img/makeup/mu39.jpg",
+                  "link4": "../img/makeup/mu40.jpg",
+                  "price": 28.00,
+                  "amount": 21,
+                  "state": "Out of stock"
+            },
+            {
+                  "name": "Fix' Make-Up",
+                  "id": "#makeup11",
+                  "description": "Lightweight setting spray extends the wear of makeup, while moisturizing and locking out harmful pollutants. ",
+                  "link1": "../img/makeup/mu41.jpg",
+                  "link2": "../img/makeup/mu42.jpg",
+                  "link3": "../img/makeup/mu43.jpg",
+                  "link4": "../img/makeup/mu44.jpg",
+                  "price": 33.00,
+                  "amount": 15,
+                  "state": "Out of stock"
+            },
+            {
+                  "name": "Gentle Eye Make-Up Remover ",
+                  "id": "#makeup12",
+                  "description": "Ultra-gentle, oil-free makeup remover effortlessly dissolves light-to-medium eye makeup and eliminates impurities. Refreshing formula combines Organic Cornflower and Organic Rose floral waters to help soothe, soften, and moisturize. D-Panthenol helps condition lashes. Won't tug, sting, or irritate even the most sensitive eyes. ",
+                  "link1": "../img/makeup/mu45.jpg",
+                  "link2": "../img/makeup/mu46.jpg",
+                  "link3": "../img/makeup/mu47.jpg",
+                  "link4": "../img/makeup/mu48.jpg",
+                  "price": 33.00,
+                  "amount": 34,
+                  "state": " "
+            }
+      ]
+}

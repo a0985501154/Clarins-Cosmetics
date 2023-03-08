@@ -1,0 +1,100 @@
+{
+  "hair": [
+    {
+      "name": "Eau Ressourçante Treatment Fragrance Spray ",
+      "id": "#perfumes1",
+      "description": "Iconic, energizing treatment fragrance that combines the aroma and skincare benefits of concentrated plant extracts to hydrate, revitalize, and perfume skin. Formulated with aromatic essential oils of citrus fruit, Patchouli, Bitter Orange, Rosemary, and White Thyme, this energizing fragrance promotes a feeling of freshness, vitality, and well-being. Natural plant extracts of Aloe Vera and Ginseng leave skin feeling soft, hydrated, and toned. Gentle, non-photosensitizing formula is suitable for all skin types—even the most sensitive. Bottle is made of 40% recycled glass. ",
+      "link1": "../img/perfumes/5.jpg",
+      "link2": "../img/perfumes/2.jpg",
+      "link3": "../img/perfumes/3.jpg",
+      "link4": "../img/perfumes/4.jpg",
+      "price": 61.0,
+      "amount": 64,
+      "state": "New"
+    },
+    {
+      "name": "Eau Extraordinaire Revitalizing Silky Body Cream ",
+      "id": "#perfumes2",
+      "description": "Uplifting treatment fragrance that combines the aroma and skincare benefits of concentrated plant extracts to soften, soothe, and perfume skin. Formulated with aromatic essential oils, this captivating fragrance combines the freshness of citrus fruits, the seductive scent of rose, and reassuring woody notes to delight the senses while moisturizing and softening skin. Natural plant extracts of Blackcurrant, Beech, and Sorbier leave skin hydrated, soothed, and radiant. Gentle, non-photosensitizing formula is suitable for all skin types—even the most sensitive. Bottle is made of 40% recycled glass. ",
+      "link1": "../img/perfumes/3.jpg",
+      "link2": "../img/perfumes/6.jpg",
+      "link3": "../img/perfumes/7.jpg",
+      "link4": "../img/perfumes/8.jpg",
+      "price": 61.0,
+      "amount": 41,
+      "state": "New"
+    },
+    {
+      "name": "Lmao Ressourçante Treatment Fragrance Spray ",
+      "id": "#perfumes3",
+      "description": "Relaxing treatment fragrance that combines the aromatherapy and skincare benefits of concentrated plant extracts to refresh, soothe, and perfume skin. Formulated with aromatic essential oils of Basil, Florentine Iris, Benzoin Siam and Cedarwood—this woody-floral fragrance promotes a total feeling of calm, while soothing the skin with a delicate veil of scented moisture. Natural plant extracts—Sarsaparilla, Longan, and Robinia—leave skin feeling soft, smooth and refreshed. Gentle, non-photosensitizing formula. Bottle is made of 40% recycled glass. ",
+      "link1": "../img/perfumes/7.jpg",
+      "link2": "../img/perfumes/10.jpg",
+      "link3": "../img/perfumes/11.jpg",
+      "link4": "../img/perfumes/12.jpg",
+      "price": 61.0,
+      "amount": 29,
+      "state": "Online Exclusive - New"
+    },
+    {
+      "name": "Eau des Jardins Treatment Fragrance Spray ",
+      "id": "#perfumes4",
+      "description": "Moisturizing body lotion with aromatherapy properties that nourishes and perfumes skin with an energizing scent. Formulated with soothing Hazelnut oil, Honey, and revitalizing Ginseng extract, this refreshing body lotion melts into skin and leaves it soft and smooth. Aromatic essential oils of Eau Dynamisante—citrus, Patchouli, Bitter Orange, Rosemary, and White Thyme—veil the skin with an energizing scent and elevate the senses to a total feeling of well-being.  ",
+      "link1": "../img/perfumes/23.jpg",
+      "link2": "../img/perfumes/14.jpg",
+      "link3": "../img/perfumes/15.jpg",
+      "link4": "../img/perfumes/16.jpg",
+      "price": 50.0,
+      "amount": 0,
+      "state": "Online Exclusive - New"
+    },
+    {
+      "name": "Eau Extraordinaire Revitalizing Silky Body Cream ",
+      "id": "#perfumes5",
+      "description": "Moisturizing, aromatherapy body cream that intensely hydrates, nourishes and perfumes skin with a mood-boosting scent. Formulated with natural plant extracts of Organic Leaf of Life and Organic Shea Butter—and scented with invigorating notes of Jasmine, Patchouli, Red Ginger, Hazelnut and a sparkling twist of citrus—this soothing body cream envelopes body skin in a delicate veil of scented moisture that, refreshes the senses, and revives inner strength and vitality to bring positive energy to your day. ",
+      "link1": "../img/perfumes/16.jpg",
+      "link2": "../img/perfumes/18.jpg",
+      "link3": "../img/perfumes/19.jpg",
+      "link4": "../img/perfumes/20.jpg",
+      "price": 50.0,
+      "amount": 10,
+      "state": "Online Exclusive"
+    },
+    {
+      "name": "Eau Extraordinaire Treatment Fragrance Spray ",
+      "id": "#perfumes6",
+      "description": "Revitalizing treatment fragrance that combines the aroma and skincare benefits of concentrated plant extracts to hydrate, invigorate, and perfume skin. Formulated with aromatic essential oils of Jasmine, Patchouli, Red Ginger, and a sparkling twist of citrus, this uplifting fragrance awakens the senses, and revives inner strength and vitality. Natural plant extracts of Organic Leaf of Life and Acerola seed super-quench and enhance radiance, leaving skin soft and revitalized. Gentle, non-photosensitizing formula is suitable for all skin types—even the most sensitive. ",
+      "link1": "../img/perfumes/21.jpg",
+      "link2": "../img/perfumes/22.jpg",
+      "link3": "../img/perfumes/23.jpg",
+      "link4": "../img/perfumes/24.jpg",
+      "price": 61.0,
+      "amount": 15,
+      "state": "Out of Stock"
+    },
+    {
+      "name": "Tonic Citrus Home Scent ",
+      "id": "#perfumes7",
+      "description": "A spritz or two of this uplifting home fragrance will brighten your mood with a sparkling twist of Tonic Citrus—an uplifting scent with happy notes of Orange, Coriander, Caraway, Rosemary and Patchouli.  ",
+      "link1": "../img/perfumes/25.jpg",
+      "link2": "../img/perfumes/26.jpg",
+      "link3": "../img/perfumes/27.jpg",
+      "link4": "../img/perfumes/28.jpg",
+      "price": 29.0,
+      "amount": 1,
+      "state": "Online Exclusive"
+    },
+    {
+      "name": "Eau des Jardins Uplifting Melting Body Lotion ",
+      "id": "#perfumes8",
+      "description": "Moisturizing, aromatherapy body cream with an uplifting fragrance that nourishes and perfumes the skin. Formulated with natural plant extracts of Blackcurrant and Rowan bud, and scented with refreshing notes of Mint and Rose, this soothing body cream reactivates with the heat of your body to create an aura of enchantment that lasts all day. Gentle, non-photosensitizing formula is suitable for all skin types—even the most sensitive. ",
+      "link1": "../img/perfumes/29.jpg",
+      "link2": "../img/perfumes/30.jpg",
+      "link3": "../img/perfumes/31.jpg",
+      "link4": "../img/perfumes/32.jpg",
+      "price": 50.0,
+      "amount": 0,
+      "state": "New"
+    }
+  ]
+}

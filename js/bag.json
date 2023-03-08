@@ -1,0 +1,84 @@
+{
+  "bag": [
+    {
+      "type": "Face",
+      "name": "Roll-On Deodorant",
+      "id": 1,
+      "description": " Rich, melting, body cream targets stubborn fat on arms, abdomen, knees, and hips for a visibly firmer, sleeker, tighter silhouette...",
+      "link1": "../img/face/f1.jpg",
+      "price": 24.0,
+      "amount": 1,
+      "state": " "
+    },
+    {
+      "type": "Body",
+      "name": "Bust Beauty Firming Lotion",
+      "id": 2,
+      "description": "Firming bust lotion that visibly tightens and tones the breast area.",
+      "link1": "../img/body/b7.jpg",
+      "price": 70.0,
+      "amount": 2,
+      "state": " "
+    },
+    {
+      "type": "Body",
+      "name": "Tonic Body Treatment Oil",
+      "id": 3,
+      "description": "Toning body treatment oil formulated with 100% plant extracts to visibly firm, tone and improve elasticity.",
+      "link1": "../img/body/b5.jpg",
+      "price": 70.0,
+      "amount": 1,
+      "state": "BEST SELLER"
+    },
+    {
+      "type": "Hair",
+      "name": "Exfoliating Hair Scrub For Smooth Skin",
+      "id": 4,
+      "description": "Refreshing hair scrub that gently exfoliates, softens, and nourishes. ",
+      "link1": "../img/body/b8.jpg",
+      "price": 42,
+      "amount": 1,
+      "state": " "
+    },
+    {
+      "type": "Body",
+      "name": "Exfoliating Body Scrub For Smooth Skin",
+      "id": 5,
+      "description": "Refreshing body scrub that gently exfoliates, softens, and nourishes. ",
+      "link1": "../img/body/b10.jpg",
+      "price": 42,
+      "amount": 1,
+      "state": " "
+    },
+    {
+      "type": "Perfumes",
+      "name": "Roll-On Deodorant",
+      "id": 6,
+      "description": " Rich, melting, perfumes cream targets stubborn fat on arms,...",
+      "link1": "../img/perfumes/2.jpg",
+      "price": 24,
+      "amount": 1,
+      "state": " "
+    },
+    {
+      "type": "Perfumes",
+      "name": "Roll-On Deodorant",
+      "id": 7,
+      "description": " Rich, melting, perfumes cream targets stubborn fat on arms,...",
+      "link1": "../img/perfumes/1.jpg",
+      "price": 24,
+      "amount": 1,
+      "state": " "
+    },
+    {
+      "type": "Body",
+      "name": "Hand Gel Gentle Foaming Cleanser with Cottonseed",
+      "id": 8,
+      "description": "Silky, foaming hand soap that gently cleanses and purifies while softening and soothing skin.",
+      "link1": "../img/body/b16.jpg",
+      "price": 23.0,
+      "amount": 1,
+      "state": " "
+    }
+  ]
+}

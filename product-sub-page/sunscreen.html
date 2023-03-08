@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="../src/jquery-3.6.3.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <script src="../src/angular.min.js"></script>
+  <script src="../src/angular-route.js"></script>
+  <link rel="stylesheet" href="../src/swiper-bundle.min.css" />
+  <script src="../src/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="../src/bootstrap.min.css" />
+  <link rel="stylesheet" href="../src/bootstrap-icons-1.10.3/bootstrap-icons.css" />
+  <script src="../js/lmao.js"></script>
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Clarins Cosmetics</title>
+</head>
+
+<body data-ng-app="myApp" data-ng-controller="myCtrl">
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-12">
+          <div class="input-group col">
+            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+              aria-describedby="search-addon" data-ng-model="letter" />
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="input-group">
+            <span class="input-group-text">Min</span>
+            <input type="number" id="form1" class="form-control form-icon-trailing" min="0" max="150" step="30"
+              data-ng-model="min" />
+            <span class="input-group-text">$</span>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="input-group">
+            <span class="input-group-text">Max</span>
+            <input type="number" id="form2" class="form-control form-icon-trailing" min="0" max="150" step="30"
+              data-ng-model="max" />
+            <span class="input-group-text">$</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="boss">
+      <sunscreen-product-card
+        data-ng-repeat="sunscreenUrl in sunscreenUrls| myFilter:min:max |filter:letter"></sunscreen-product-card>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script></script>
+  <!-- Modal -->
+  <div data-ng-repeat="sunscreenUrl in sunscreenUrls" class="modal fade" id="{{sunscreenUrl.id.slice(1)}}"
+    data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">{{sunscreenUrl.name}}</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-sunscreen">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img class="card-img-top" src="{{sunscreenUrl.link2}}" />
+              </div>
+              <div class="swiper-slide">
+                <img class="card-img-top" src="{{sunscreenUrl.link3}}" />
+              </div>
+              <div class="swiper-slide">
+                <img class="card-img-top" src="{{sunscreenUrl.link4}}" />
+              </div>
+              ...
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+          </div>
+          <script>
+            // Can't implement the codes below
+            //   var menu = [
+            //   {{sunscreenUrl.link2}},
+            //   {{sunscreenUrl.link3}},
+            //   {{sunscreenUrl.link4}},
+            // ];
+            var swiper = new Swiper(".swiper", {
+              // Optional parameters
+              direction: "horizontal",
+              rewind: true,
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+              scrollbar: {
+                el: ".swiper-scrollbar",
+              },
+            });
+          </script>
+        </div>
+        <div class="modal-footer vh-100">
+          <p class="fw-bolder font-monospace">${{sunscreenUrl.price}}.00 <button class="btn btn-primary cart">Add to <i
+                class="bi bi-cart-fill text-white"></i></button></p>
+          <p>{{sunscreenUrl.description}}</p>
+          <div class="card bg-dark text-white">
+            <div class="card-body p-4">
+              <h3 class="text-center mb-4 pb-2">Comment section</h3>
+              <div class="row p-2">
+                <label for="comments"><strong>Share your though or experience</strong></label>
+                <label for="commentname">Your name</label>
+                <input type="text" id="commentname" placeholder="John Doge" />
+                <label for="comments">Comment</label>
+                <textarea name="comments" id="comments" cols="20" placeholder="Lmao, ur company's shjt"></textarea>
+                <button type="button" class="btn btn-outline-success p-2" id="commentbutton">
+                  Send
+                </button>
+              </div>
+              <div class="row">
+                <div class="col" id="commentsection">
+                  <div class="d-flex flex-start">
+                    <img class="rounded-circle shadow-1-strong me-3" src="../img/ava1.png" alt="avatar" width="65"
+                      height="65" />
+                    <div class="flex-grow-1 flex-shrink-1">
+                      <div>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-1">
+                            Maria Smantha
+                            <span class="small">- 2 hours ago</span>
+                          </p>
+                          <label for="comments"><i class="bi bi-reply"></i>Reply</label>
+                        </div>
+                        <p class="small mb-0">
+                          It is a long established fact that a reader will be
+                          distracted by the readable content of a page.
+                        </p>
+                      </div>
+
+                      <div class="d-flex flex-start mt-4">
+                        <a class="me-3" href="#">
+                          <img class="rounded-circle shadow-1-strong" src="../img/ava2.jpg" alt="avatar" width="65"
+                            height="65" />
+                        </a>
+                        <div class="flex-grow-1 flex-shrink-1">
+                          <div>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <p class="mb-1">
+                                Simona Disa
+                                <span class="small">- 3 hours ago</span>
+                              </p>
+                            </div>
+                            <p class="small mb-0">
+                              letters, as opposed to using 'Content here,
+                              content here', making it look like readable
+                              English.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="d-flex flex-start mt-4">
+                        <a class="me-3" href="#">
+                          <img class="rounded-circle shadow-1-strong" src="../img/ava1.png" alt="avatar" width="65"
+                            height="65" />
+                        </a>
+                        <div class="flex-grow-1 flex-shrink-1">
+                          <div>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <p class="mb-1">
+                                John Smith
+                                <span class="small">- 4 hours ago</span>
+                              </p>
+                            </div>
+                            <p class="small mb-0">
+                              the majority have suffered alteration in some
+                              form, by injected humour, or randomised words.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-start mt-4">
+                    <img class="rounded-circle shadow-1-strong me-3" src="../img/ava2.jpg" alt="avatar" width="65"
+                      height="65" />
+                    <div class="flex-grow-1 flex-shrink-1">
+                      <div>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-1">
+                            Natalie Smith
+                            <span class="small">- 2 hours ago</span>
+                          </p>
+                          <label for="comments"><i class="bi bi-reply"></i>Reply</label>
+                        </div>
+                        <p class="small mb-0">
+                          The standard chunk of Lorem Ipsum used since the
+                          1500s is reproduced below for those interested.
+                          Sections 1.10.32 and 1.10.33.
+                        </p>
+                      </div>
+
+                      <div class="d-flex flex-start mt-4">
+                        <a class="me-3" href="#">
+                          <img class="rounded-circle shadow-1-strong" src="../img/ava1.png" alt="avatar" width="65"
+                            height="65" />
+                        </a>
+                        <div class="flex-grow-1 flex-shrink-1">
+                          <div>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <p class="mb-1">
+                                Lisa Cudrow
+                                <span class="small">- 4 hours ago</span>
+                              </p>
+                            </div>
+                            <p class="small mb-0">
+                              Cras sit amet nibh libero, in gravida nulla.
+                              Nulla vel metus scelerisque ante sollicitudin
+                              commodo. Cras purus odio, vestibulum in
+                              vulputate at, tempus viverra turpis.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="d-flex flex-start mt-4">
+                        <a class="me-3" href="#">
+                          <img class="rounded-circle shadow-1-strong" src="../img/ava2.jpg" alt="avatar" width="65"
+                            height="65" />
+                        </a>
+                        <div class="flex-grow-1 flex-shrink-1">
+                          <div>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <p class="mb-1">
+                                Maggie McLoan
+                                <span class="small">- 5 hours ago</span>
+                              </p>
+                            </div>
+                            <p class="small mb-0">
+                              a Latin professor at Hampden-Sydney College in
+                              Virginia, looked up one of the more obscure
+                              Latin words, consectetur
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="d-flex flex-start mt-4">
+                        <a class="me-3" href="#">
+                          <img class="rounded-circle shadow-1-strong" src="../img/ava1.png" alt="avatar" width="65"
+                            height="65" />
+                        </a>
+                        <div class="flex-grow-1 flex-shrink-1">
+                          <div>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <p class="mb-1">
+                                John Smith
+                                <span class="small">- 6 hours ago</span>
+                              </p>
+                            </div>
+                            <p class="small mb-0">
+                              Autem, totam debitis suscipit saepe sapiente
+                              magnam officiis quaerat necessitatibus odio
+                              assumenda, perferendis quae iusto labore
+                              laboriosam minima numquam impedit quam dolorem!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

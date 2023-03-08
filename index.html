@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="./src/jquery-3.6.3.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="./src/angular.min.js"></script>
+    <script src="./src/angular-route.js"></script>
+    <link rel="stylesheet" href="./src/swiper-bundle.min.css" />
+    <script src="./src/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./src/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="../src/bootstrap-icons-1.10.3/bootstrap-icons.css"
+    />
+    <script src="./js/lmao.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Clarins Cosmetics</title>
+  </head>
+
+  <body data-ng-app="myApp" data-ng-controller="myCtrl">
+    <div>
+      <video class="d-xl-none" src="./img/background.mp4" loop muted autoplay></video>
+      <video class="d-none d-lg-block" src="./img/background2.mp4" loop muted autoplay></video>
+      <!-- Top navigation -->
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#!/"
+              ><img src="./img/logo.png" alt=""
+            /></a>
+            <div class="collapse navbar-collapse justify-content-end">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="#!/" class="nav-link home">Home page</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link products"
+                    href="#"
+                    id="navbardarkdropdownmenulink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Our products
+                    <i class="bi bi-caret-down"></i>
+                  </a>
+                  <div
+                    class="dropdown-menu dropdown-menu-dark text-justify"
+                    id="lmao"
+                  >
+                    <div class="row">
+                      <div class="col-4 border-right-1">
+                        <strong>Face</strong>
+                        <a class="dropdown-item" href="#!/face">View all</a>
+                        <a class="dropdown-item" href="#!/face"
+                          >Cleansers & Toners</a
+                        >
+                        <a class="dropdown-item" href="#!/face"
+                          >Example products</a
+                        >
+                        <a class="dropdown-item" href="#!/face"
+                          >Example products</a
+                        >
+                        <a class="dropdown-item" href="#!/face"
+                          >Example products</a
+                        >
+                        <strong>Highlights</strong>
+                        <a class="dropdown-item" href="#!/face"
+                          >Best sellers: Face</a
+                        >
+                        <hr />
+                        <strong>Makeup</strong>
+                        <a class="dropdown-item" href="#!/makeup">View all</a>
+                        <a class="dropdown-item" href="#!/makeup">Primers</a>
+                        <a class="dropdown-item" href="#!/makeup"
+                          >Example products</a
+                        >
+                        <a class="dropdown-item" href="#!/makeup"
+                          >Example products</a
+                        >
+                        <a class="dropdown-item" href="#!/makeup"
+                          >Example products</a
+                        >
+                        <strong>Highlights</strong>
+                        <a class="dropdown-item" href="#!/makeup"
+                          >Best sellers: Makeup</a
+                        >
+                      </div>
+                      <div class="col-4 border border-top-0 border-bottom-0">
+                        <strong>Body</strong>
+                        <a class="dropdown-item" href="#!/body">View all</a>
+                        <a class="dropdown-item" href="#!/body"
+                          >Body Moisturizers</a
+                        >
+                        <a class="dropdown-item" href="#!/body"
+                          >Example products</a
+                        >
+                        <a class="dropdown-item" href="#!/body"
+                          >Example products</a
+                        >
+                        <a class="dropdown-item" href="#!/body"
+                          >Example products</a
+                        >
+                        <strong>Highlights</strong>
+                        <a class="dropdown-item" href="#!/body"
+                          >Best sellers: Body</a
+                        >
+                        <hr />
+                        <strong>Sunscreens</strong>
+                        <a class="dropdown-item" href="#!/sunscreen"
+                          >View all</a
+                        >
+                        <a class="dropdown-item" href="#!/sunscreen"
+                          >Self tanning</a
+                        >
+                        <a class="dropdown-item" href="#!/sunscreen"
+                          >Example products</a
+                        >
+                        <a class="dropdown-item" href="#!/sunscreen"
+                          >Example products</a
+                        >
+                        <a class="dropdown-item" href="#!/sunscreen"
+                          >Example products</a
+                        >
+                        <strong>Highlights</strong>
+                        <a class="dropdown-item" href="#!/sunscreen"
+                          >Best sellers: Sunscreens</a
+                        >
+                      </div>
+                      <div class="col-4">
+                        <strong>Hair</strong>
+                        <a class="dropdown-item" href="#!/hair">View all</a>
+                        <a class="dropdown-item" href="#!/hair"
+                          >Hair softener</a
+                        >
+                        <a class="dropdown-item" href="#!/hair"
+                          >Example products</a
+                        >
+                        <a class="dropdown-item" href="#!/hair"
+                          >Example products</a
+                        >
+                        <a class="dropdown-item" href="#!/hair"
+                          >Example products</a
+                        >
+                        <strong>Highlights</strong>
+                        <a class="dropdown-item" href="#!/hair"
+                          >Best sellers: Hair</a
+                        >
+                        <hr />
+                        <strong>Perfumes</strong>
+                        <a class="dropdown-item" href="#!/perfumes">View all</a>
+                        <a class="dropdown-item" href="#!/perfumes">Ladies's</a>
+                        <a class="dropdown-item" href="#!/perfumes"
+                          >Example products</a
+                        >
+                        <a class="dropdown-item" href="#!/perfumes"
+                          >Example products</a
+                        >
+                        <a class="dropdown-item" href="#!/perfumes"
+                          >Example products</a
+                        >
+                        <strong>Highlights</strong>
+                        <a class="dropdown-item" href="#!/perfumes"
+                          >Best sellers: Perfumes</a
+                        >
+                      </div>
+                      <div class="col-12">
+                        <a class="dropdown-item text-center" href="#!/other"
+                          >Other brands</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="#!help" class="nav-link help">Help</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#!about" class="nav-link about">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#!info" class="nav-link info">Contact and info</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#!buy" class="nav-link buy"
+                    ><i class="bi bi-cart-check"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link"
+                    ><i
+                      class="bi bi-person-circle"
+                      data-bs-toggle="modal"
+                      data-bs-target="#popUpWindow"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <button
+              type="button"
+              class="btn btn-dark"
+              data-bs-toggle="modal"
+              data-bs-target="#sidenav"
+            >
+              <i class="bi bi-list"></i>
+            </button>
+          </div>
+        </nav>
+        <div
+          class="modal fade"
+          id="sidenav"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog sidenava">
+            <div class="modal-content sidenavb">
+              <div class="modal-header">
+                <div class="d-grid gap-2">
+                  <img src="./img/logo.png" alt="" />
+                  <button
+                    type="button"
+                    class="btn btn-outline-danger"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+              <div class="modal-body">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="#/!" class="nav-link home">
+                      <i class="bi bi-house"></i> Home page</a
+                    >
+                  </li>
+                  <hr />
+                  <li class="nav-item" id="pushdown">
+                    <a class="nav-link products">
+                      <i class="bi bi-bag"></i> Our products
+                      <i class="bi bi-caret-down"></i>
+                    </a>
+                    <ul class="navbar-nav" id="sidenav-products-list">
+                      <li><a class="nav-link" href="#!face">face</a></li>
+                      <li><a class="nav-link" href="#!body">body</a></li>
+                      <li><a class="nav-link" href="#!hair">hair</a></li>
+                      <li>
+                        <a class="nav-link" href="#!makeup">makeup</a>
+                      </li>
+                      <li>
+                        <a class="nav-link" href="#!sunscreen">sunscreen</a>
+                      </li>
+                      <li>
+                        <a class="nav-link" href="#!perfumes">perfumes</a>
+                      </li>
+                      <li>
+                        <a class="nav-link" href="#!other">other brands</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <hr />
+                  <li class="nav-item">
+                    <a href="#!help" class="nav-link help"
+                      ><i class="bi bi-question-circle"></i> Help</a
+                    >
+                  </li>
+                  <hr />
+                  <li class="nav-item">
+                    <a href="#!about" class="nav-link about"
+                      ><i class="bi bi-info-circle"></i> About us</a
+                    >
+                  </li>
+                  <hr />
+                  <li class="nav-item">
+                    <a href="#!info" class="nav-link info"
+                      ><i class="bi bi-headphones"></i> Contact and info</a
+                    >
+                  </li>
+                  <hr />
+                  <li class="nav-item">
+                    <a href="#!buy" class="nav-link"
+                      ><i class="bi bi-person-circle"></i> User info</a
+                    >
+                  </li>
+                  <hr />
+                  <li class="nav-item">
+                    <a href="#!buy" class="nav-link buy"
+                      ><i class="bi bi-cart-check"></i> Check out</a
+                    >
+                  </li>
+                  <hr />
+                </ul>
+              </div>
+              <div class="modal-footer justify-content-around sidenavc">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+                <a href="#"><i class="bi bi-google"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-ng-view></div>
+
+      <!-- Footer -->
+      <div class="container-fluid mt-5 bg">
+        <footer class="text-center text-lg-start text-white">
+          <div class="container p-4 pb-0">
+            <section class="">
+              <div class="row" style="text-align: center">
+                <h3>How We Started</h3>
+                <p>
+                  Clarins is a french brand of skincare for the face and body.
+                  with a genuine passion to deliver real and natural beauty
+                  solutions, the brand started with a beauty spa and its own
+                  product line. with more than 60 years in the industry and
+                  close communication with consumers, clarins is a reference in
+                  premium beauty - with a wide catalog that offers skincare
+                  solutions for the face and body, makeup and fragrances.
+                </p>
+              </div>
+              <div class="row text-center">
+                <h4>Online Shopping Benefits</h4>
+              </div>
+              <div class="row text-center">
+                <div class="col">
+                  <i class="bi bi-bag fi"></i>
+                  <p class="ft">FREE SHIPPING</p>
+                  <p>with any order above 50$</p>
+                </div>
+                <div class="col">
+                  <i class="bi bi-heart fi"></i>
+                  <p class="ft">3 FREE SAMPLES</p>
+                  <p>with ANY order</p>
+                </div>
+                <div class="col">
+                  <i class="bi bi-gift fi"></i>
+                  <p class="ft">SPECIAL OFFERS</p>
+                  <p>all year long</p>
+                </div>
+                <div class="col">
+                  <i class="bi bi-arrow-clockwise fi"></i>
+                  <p class="ft">AUTO REPLENISH</p>
+                  <p>with 10% off n free shipping</p>
+                </div>
+                <div class="col">
+                  <i class="bi bi-telephone fi"></i>
+                  <p class="ft">CONSULTATION</p>
+                  <p>book now</p>
+                </div>
+                <hr />
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                  <h6 class="text-uppercase fw-bold">
+                    <strong>Find us at</strong>
+                  </h6>
+                  <iframe
+                    class="rounded"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2017572415216!2d106.6761517146227!3d10.79585399230832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528d6786d52bf%3A0x77a4a2db8949796e!2zMTAyIE5ndXnhu4VuIMSQw6xuaCBDaMOtbmgsIFBoxrDhu51uZyAxNSwgUGjDuiBOaHXhuq1uLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1660565287306!5m2!1svi!2s"
+                    width="100%"
+                    height="80%"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">category</h5>
+
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!face" class="text-white">face</a>
+                    </li>
+                    <li>
+                      <a href="#!body" class="text-white">body</a>
+                    </li>
+                    <li>
+                      <a href="#!hair" class="text-white">hair</a>
+                    </li>
+                    <li>
+                      <a href="#!makeup" class="text-white">makeup</a>
+                    </li>
+                    <li>
+                      <a href="#!sunscreen" class="text-white">suncreen</a>
+                    </li>
+                    <li>
+                      <a href="#!perfumes" class="text-white">perfumes</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">faq</h5>
+
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!help" class="text-white">Site map</a>
+                    </li>
+                    <li>
+                      <a href="#!ex1" class="text-white">Example article 1</a>
+                    </li>
+                    <li>
+                      <a href="#!ex2" class="text-white">Example article 2</a>
+                    </li>
+                    <li>
+                      <a href="#!ex3" class="text-white">Example article 3</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Contact info</h5>
+                  <p>tel: <strong>+84 5646468464</strong></p>
+                  <p>email: <strong>clarinscosmetics@gmail.com</strong></p>
+                  <p>address: <strong>lorem ipsum dolor sit amet.</strong></p>
+                </div>
+              </div>
+            </section>
+
+            <hr class="mb-4" />
+
+            <section class="mb-4 text-center">
+              <a class="btn btn-outline-light btn-floating m-1" role="button"
+                ><i class="bi bi-facebook"></i
+              ></a>
+
+              <a class="btn btn-outline-light btn-floating m-1" role="button"
+                ><i class="bi bi-twitter"></i
+              ></a>
+
+              <a class="btn btn-outline-light btn-floating m-1" role="button"
+                ><i class="bi bi-google"></i
+              ></a>
+
+              <a class="btn btn-outline-light btn-floating m-1" role="button"
+                ><i class="bi bi-instagram"></i
+              ></a>
+
+              <a class="btn btn-outline-light btn-floating m-1" role="button"
+                ><i class="bi bi-youtube"></i
+              ></a>
+            </section>
+          </div>
+
+          <div
+            class="text-center p-3"
+            style="background-color: rgba(0, 0, 0, 0.4)"
+          >
+            <a class="text-white" href="#">CLARINS COSMETICS</a>
+          </div>
+          <p></p>
+          <p></p>
+        </footer>
+      </div>
+      <!-- Login modal -->
+
+      <div class="modal fade" id="popUpWindow">
+        <div class="modal-dialog logina">
+          <div class="modal-content loginb">
+            <!-- header -->
+            <div class="modal-header">
+              <div class="d-grid">
+                <img src="./img/logo.png" alt="" />
+
+                <!-- Invisible char-->ㅤ
+                <h1 class="text-center">Login</h1>
+              </div>
+            </div>
+            <!-- body -->
+            <div class="modal-body">
+              <form role="form" name="myForm">
+                <div class="form-group">
+                  <div class="d-grid">
+                    <input
+                      type="email"
+                      id="loginint1"
+                      class="form-control"
+                      name="input"
+                      ng-model="emailid"
+                      placeholder="Email"
+                      required
+                    />
+                    <span
+                      class="error"
+                      ng-show="myForm.input. $error.email"
+                      style="color: red; font-size: 12px"
+                    >
+                      *Not a valid email!</span
+                    >
+
+                    <!-- Invisible char-->ㅤ
+                    <input
+                      type="password"
+                      id="loginint2"
+                      class="form-control"
+                      placeholder="Password"
+                      ng-model="password"
+                      name="password"
+                      ng-pattern="re"
+                      required
+                    />
+                    <span
+                      ng-show="myForm.password.$error.pattern"
+                      style="color: red; font-size: 12px"
+                    >
+                      Not valid password.</span
+                    >
+                    <!-- Invisible char-->ㅤ
+                    <div><input type="checkbox" id="loginint3"/><i> Remember me</i></div>
+                    <!-- Invisible char-->ㅤ
+                    <button onclick="loginmodal()" class="btn btn-outline-primary">
+                      Enter
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ticker-wrap">
+      <div class="ticker">
+        <div class="ticker__item">
+          Visitor count: <span class="website-counter"></span>
+        </div>
+        <div class="ticker__item">Today is: <time id="datetime"></time></div>
+        <div class="ticker__item">
+          Your current location is: <span class="location"></span>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Visitor counter
+      var counterContainer = document.querySelector(".website-counter");
+      var resetButton = document.querySelector("#reset");
+      var visitCount = localStorage.getItem("page_view");
+      if (visitCount) {
+        visitCount = Number(visitCount) + 1;
+        localStorage.setItem("page_view", visitCount);
+      } else {
+        visitCount = 1;
+        localStorage.setItem("page_view", 1);
+      }
+      counterContainer.innerHTML = visitCount;
+      // datetime
+      function currenttime() {
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = dt;
+      }
+      setInterval(currenttime, 1000);
+      //location
+      var $locationText = $(".location");
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+          geoLocationSuccess,
+          geoLocationError,
+          { timeout: 10000 }
+        );
+      } else {
+        alert("your browser doesn't support geolocation");
+      }
+      function geoLocationSuccess(pos) {
+        // get user lat,long
+        var myLat = pos.coords.latitude,
+          myLng = pos.coords.longitude,
+          loadingTimeout;
+
+        var loading = function () {
+          $locationText.text("fetching...");
+        };
+
+        loadingTimeout = setTimeout(loading, 600);
+
+        var request = $.get(
+          "https://nominatim.openstreetmap.org/reverse?format=json&lat=" +
+            myLat +
+            "&lon=" +
+            myLng
+        )
+          .done(function (data) {
+            if (loadingTimeout) {
+              clearTimeout(loadingTimeout);
+              loadingTimeout = null;
+              $locationText.text(data.display_name);
+            }
+          })
+          .fail(function () {});
+      }
+
+      function geoLocationError(error) {
+        var errors = {
+          1: "Permission denied",
+          2: "Position unavailable",
+          3: "Request timeout",
+        };
+        alert("Error: " + errors[error.code]);
+      }
+    </script>
+    <script src="./src/jquery-3.6.3.min.js"></script>
+    <script src="./src/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
